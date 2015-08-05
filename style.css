@@ -1,0 +1,602 @@
+
+
+body, header, section, footer {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Aguafina Script', cursive;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 5.1em;
+	margin: 0;
+	padding-top: 0.3em;
+}
+
+h2 {
+	font-size:3.5em;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h3 {
+	font-size:4.3em;
+}
+
+h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:1.7em;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:600;
+	margin:0;
+	padding:1em 0;
+}
+
+.whitetext {
+	color:#fff;
+}
+
+.two-column {
+	width:42%;
+	margin: 3em 2em;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.three-column {
+	width:30%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+.four-column {
+	width:22%;
+	display:inline-block;
+	margin: 3em 1em;
+}
+
+#top-nav, #main-nav, #banner, #about, #specials, #reservation, #services, #intro, #contact, #social, #menu-items, #events {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.content-wrapper {
+	max-width: 1200px;
+	margin: auto;
+	overflow: auto;
+}
+
+form {
+	max-width: 100%;
+}
+
+input {
+	border: none;
+}
+
+input[placeholder] {
+	font-style: italic;
+}
+
+
+/*===================================================*/
+/*============<<<<<<< HOME page >>>>>>>>=============*/
+/*===================================================*/
+
+
+/*============ HEADER ============*/
+/*================================*/
+
+header {
+	z-index: 1;
+}
+
+#top-nav, #main-nav {
+	position: fixed;
+}
+
+#top-nav, #top-nav a {
+	color: rgba(147,147,147,1);
+	text-decoration: none;
+	background-color: rgba(0,0,0,1);
+}
+
+.topnavicon {
+	padding:0 0.1em;
+}
+
+#top-nav li {
+	display:inline-block;
+}
+
+.topnavtext {
+	padding-right:0.9em;
+}
+
+#main-nav {
+	background-color: rgba(0,0,0,0.5);
+	display: block;
+	top: 45px;
+	left: 0px;
+}
+
+#main-nav img {
+	padding: 1.2em 0;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.main-nav ul, .main-nav li, .main-nav a {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgba(255,255,255,255);
+	padding: 0.25em 1em;
+		font-weight:600;
+}
+
+.main-nav a:hover {
+	border-bottom: 2px solid white;
+}
+
+
+#banner {
+	padding-top: 195px;
+	text-align: center;
+	background: url("images/home-page/restaurant-hero-bg_1024.png") no-repeat;
+	background-size: 1920px;
+	color: rgba(255,255,255,1);
+	vertical-align: middle;
+}
+
+#banner .content-wrapper {
+	padding: 5em 0 12em;
+}
+
+#banner p {
+	margin: 0 0 1em 0;
+	font-size: 2em;
+}
+
+
+/*=========== About =============*/
+/*===============================*/
+
+#about {
+	text-align:center;
+	padding:3em 0;
+}
+
+#about p{
+	margin:0;
+}
+
+#about img {
+	max-width: 100%;
+}
+
+.subtitle {
+	font-size:1em;
+	padding: 0 0 1.5em;
+}
+
+.about-text {
+	font-size:1.1em;
+	padding: 1.5em 0 0;
+}
+
+.subtitle, .about-text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+}
+
+
+/*=========== Specials ===========*/
+/*================================*/
+
+#specials {
+	padding-top:1em;
+	background-color: #f7f7f7;
+}
+
+
+#specials{
+	text-align:center;
+	background: #f7f7f7 url("images/home-page/specials-border.png") center 25% no-repeat;
+}
+
+
+
+.menu-table {
+	margin: 2em 0 1em;
+	padding: 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+.menu-table table {
+	margin: 0 1.6em;
+}
+
+.menu-table th {
+	text-transform: uppercase;
+	font-size:1.6em;
+	padding: 1em;
+}
+
+.menu-table td {
+}
+
+.price {
+	font-style:italic;
+	font-size:1.5em;
+	padding: 1em;
+	text-align: right;
+}
+
+.food {
+	font-size:1.5em;
+	padding: 1em;
+	text-align: left;
+}
+
+.download-menu {
+	padding:7.5em 0 5em 0;
+}
+
+.events-button {
+	padding:1em 0 6em 0;
+}
+
+.download-menu a, .events-button a {
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:1.3em;
+	font-weight:600;
+	color:#000;
+	border:3px solid #000;
+	padding:0.5em 2em;
+}
+
+.download-menu a:hover, .events-button a:hover {
+	background: #ff514a;
+}
+
+#specials img {
+	display: block;
+	margin: 0 auto;
+	padding: 0 4em 0 0;
+	max-width: 100%;
+}
+
+
+
+/*=========== Reservation ==============*/
+/*======================================*/
+
+#reservation {
+	background: url("images/header-background.jpg") repeat center;
+	padding:2em 0;
+	text-align:center;
+}
+
+#reservation p {
+	color:#fff;
+	margin: 1.5em 0;
+
+}
+
+#reservation form {
+	max-width: 100%;
+	margin: 3.5em 0 3em;
+}
+
+#reservation input {
+	margin: 1em;
+	padding: 0.75em 1em;
+}
+
+.form-name, .form-time, .form-date {
+	width: 28%;
+}
+
+.form-email, .form-phone, .form-people {
+	width: 22.5%;
+}
+
+.submit {
+	background: #ff514a;
+	color: rgba(255,255,255,1);
+	width: 14%;
+}
+
+.submit:hover {
+	cursor: pointer;
+}
+
+/*=========== Our Services ===========*/
+/*====================================*/
+
+#services {
+	text-align:center;
+	background-color:#f7f7f7;
+	padding: 2em 0 4em 0;
+
+}
+
+#services p {
+	padding: 0;
+	margin: 0;
+	color:#7f7f7f;
+	font-size:1.2em;
+}
+#services img {
+	position: absolute;
+	top: -45%;
+	right: 23%;
+}
+
+.services-icons {
+	position: relative;
+	margin-top: 7em;
+}
+
+.services-icons p {
+	display: block;
+	color: #000 !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #fff;
+	padding: 5em 3em 2em !important;
+}
+
+/*============= Welcome ==============*/
+/*====================================*/
+
+#intro {
+	padding:4em 0;
+	text-align:center;
+	background: url("images/header-background.jpg") repeat center;
+}
+
+
+
+#intro p {
+	padding: 0 15em;
+	color:#fff;
+	font-size:1.1em;
+	margin: 0;
+}
+
+
+/*============= Contact ==============*/
+/*====================================*/
+
+#contact {
+	background-color: rgba(48,48,48,1);
+	color: rgba(147,147,147,1);
+	text-align: center;
+}
+
+#contact h6 {
+	text-transform: none;
+	font-weight: 400;
+}
+
+#contact .three-column {
+	margin: 2em 1.5em 3em;
+	text-align: left;
+	width: 24%;
+}
+
+#contact table {
+	width: 100%;
+}
+
+#contact table a {
+	text-decoration: none;
+	color: rgba(147,147,147,1);
+}
+
+#contact td {
+	line-height:  1.5em;
+}
+
+#contact form {
+	width: 100%;
+
+}
+
+#contact input {
+	padding: 0.75em 1em;
+	margin: 0;
+}
+
+.news-form {
+	width: 70%;
+	border: 1px solid white;
+}
+
+#contact .date {
+	text-align: left;
+}
+
+#contact .time {
+	text-align: right;
+	color: #fff;
+}
+
+
+
+/*============= Social ===============*/
+/*====================================*/
+
+#social {	
+	background-color: rgba(36,36,36,1);
+	text-align:center;
+	padding: 2em 0;
+}
+
+#social p {
+	color:rgba(70,70,70,1);
+}
+
+#social a {
+	text-decoration:none;
+	color:#fff;
+}
+
+#social ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+#social ul li a{
+	height: 20px;
+	width: 20px;
+	padding: 1em;
+	border-radius: 50%;
+	margin: 1em 0.25em;
+	display: inline-block;
+	background: rgba(42,42,42,1);
+}
+
+#social ul li a:hover {
+	background: rgba(20,20,20,1);
+}
+
+
+#social img {
+	vertical-align: middle;
+	
+}
+
+
+/*================================================================*/
+/*============<<<<<<<<<<< EVENTS page >>>>>>>>====================*/
+/*================================================================*/
+
+
+#events, #menu {
+	background: url("images/header-background.jpg") repeat center;
+	text-align:center;
+	padding-top: 150px;
+	padding-bottom:2em;
+}
+
+.events-nav li, .menu-nav li {
+	display:inline-block;
+	padding: 0 0.5em;
+	color:#fff;
+	font-size:0.9em;
+
+}
+
+ul.menu-nav, ul.events-nav {
+	padding:0;
+}
+
+#events-about {
+	text-align:center;
+}
+
+#events-about p {
+	font-size:1.2em;
+	margin:0;
+	padding:0;
+}
+
+#events-about img {
+	padding: 1.5em 0;
+}
+
+.events-image {
+	background: url("images/events-page/event-01.jpg") center no-repeat;
+	padding:20em 0;
+}
+
+.events-text {
+	width:830px;
+	margin: 0 auto;
+}
+
+.events-text h1 {
+	font-size:2em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+}
+
+#events-about li {
+	display:inline-block;
+}
+
+.event-icon {
+	padding: 0 0.5em 0 1em;
+}
+
+/*===========================================================*/
+/*============<<<<<<<<<<  MENU Page >>>>>>>>>>>==============*/
+/*===========================================================*/
+
+#menu-items {
+	text-align: center;
+	padding: 2em 0 3em;
+}
+
+#menu-items th {
+	text-align: left;
+	padding: 0;
+}
+
+#menu-items td {
+	text-align: left;
+	padding: 0.75em 0 0 0;
+}
+
+.menu-type {
+	font-size: 1.5em;
+}
+
+td.menu-desc {
+	padding: 0.5em 0 0 0.25em !important;
+	vertical-align: top;
+	text-align: left;
+	font-style: italic;
+	color: rgba(150,150,150,1) !important;
+}
+
+td.menu-price {
+	font-size: 1.5em;
+	padding: 0 !important;
+	text-align: top;
+}
+
+#menu-banner {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: url("images/header-background.jpg") repeat center;
+}
+
+#menu-banner img {
+	width: 25%;
+	padding: 0;
+	margin: 0;
+}
+
