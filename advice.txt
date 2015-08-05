@@ -1,4 +1,0 @@
--Turn tables into columns
--Make topnav+main nav one
--Reduce number of divs (apply
-class to UL or P)
